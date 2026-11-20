@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"
+  role="img" aria-labelledby="title description">
+  <title id="title">Request ID</title>
+  <desc id="description">Centered ID between a rightward top arrow and a leftward bottom arrow.</desc>
+
+  <rect width="128" height="128" rx="28" fill="#0f172a"/>
+
+  <!-- Draw the letters as paths for consistent rendering without fonts. -->
+  <g fill="none" stroke="#2dd4bf" stroke-width="5"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path d="M30 29h68m-8-8 8 8-8 8"/>
+    <path d="M98 99H30m8-8-8 8 8 8"/>
+  </g>
+
+  <g fill="none" stroke="#f8fafc" stroke-width="5"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path d="M42 49h10m-5 0v30m-5 0h10"/>
+    <path d="M65 49h6a15 15 0 0 1 0 30h-6z"/>
+  </g>
+</svg>

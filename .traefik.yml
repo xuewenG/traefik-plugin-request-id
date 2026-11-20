@@ -1,0 +1,8 @@
+displayName: Request ID
+type: middleware
+iconPath: .assets/icon.svg
+
+import: github.com/xuewenG/traefik-plugin-request-id
+summary: Generate a fresh request ID at the trusted ingress and forward it to the backend.
+testData:
+  headerName: X-Request-ID
